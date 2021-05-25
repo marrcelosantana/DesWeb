@@ -81,16 +81,11 @@
     font-family: rajdhani;
 }
 
-#welcome{
+#follow{
     font-size: 1.5rem;
     font-family: Rajdhani;
 }
 
-#sectionContainer p{
-    font-size: 1.5rem;
-    line-height: 2.25rem;
-    margin-top: 1.5rem;
-}
 
 #sectionContainer h1{
     font-size: 2rem;
@@ -99,10 +94,20 @@
     margin-top: 1rem;
 }
 
-#sectionContainer h1 span {
+#sectionContainer table{
+    margin-top: 1rem;
+}
+
+#sectionContainer span{
+    font-size: 2rem;
+}
+
+#redes{
     color: var(--purple);
+    font-weight: bold;
 }
 
 #sectionContainer table a:hover{
     color: var(--purple);
 }
+
