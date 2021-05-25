@@ -64,16 +64,6 @@
     height: 25rem;
 }
 
-#contentContainer h3 img{
-    width: 2rem;
-    height: 2rem;
-}
-#contentContainer h3{
-    margin-top: 1rem;
-    display: flex;
-    align-items: center;
-}
-
 /* SECTION */
 
 #sectionContainer{
@@ -103,6 +93,3 @@
     color: var(--purple);
 }
 
-#sectionContainer table a:hover{
-    color: var(--purple);
-}

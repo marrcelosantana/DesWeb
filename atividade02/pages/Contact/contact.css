@@ -1,0 +1,93 @@
+/* HEADER */
+
+#headerContainer{
+    height: 3rem;
+    border-bottom: 3px solid var(--pink-omni);
+
+    background: var(--black-omni);
+
+    color: var(--white-ice);
+
+    font-size: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+#headerContent span{
+    position: relative;
+    right: 17rem;
+}
+
+#headerContent span img{
+    width: 2rem;
+    height: 2rem;
+}
+
+#headerContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+#headerContent{
+    font-weight: bold;
+}
+
+#headerContent a:hover{
+    color: var(--yellow-omni);
+}
+
+#headerContent a + a{
+    margin-left: 5rem;
+}
+
+/* CONTENT */
+
+#contentContainer{
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    height: calc(100vh - 5rem);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#contentContainer img{
+    width: 25rem;
+    height: 25rem;
+}
+
+/* SECTION */
+
+#sectionContainer{
+    max-width: 600px;
+    font-family: rajdhani;
+    font-size: 1.5rem;
+}
+
+
+#sectionContainer h2{
+    font-size: 2rem;
+    line-height: 4.5rem;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+
+
+#sectionContainer img{
+    width: 2rem;
+    height: 2rem;
+    position: relative;
+    top: 6px;
+}
+
+#sectionContainer label{
+    margin-left: 1rem;  
+}
