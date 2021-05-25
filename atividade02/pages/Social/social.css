@@ -1,14 +1,14 @@
 /* HEADER */
 
 #headerContainer{
-    height: 3rem;
+    height: 5rem;
     border-bottom: 3px solid var(--pink-omni);
 
     background: var(--black-omni);
 
     color: var(--white-ice);
 
-    font-size: 1rem;
+    font-size: 1.5rem;
 
     display: flex;
     align-items: center;
@@ -17,14 +17,15 @@
 }
 
 
+
 #headerContent span{
     position: relative;
     right: 17rem;
 }
 
 #headerContent span img{
-    width: 2rem;
-    height: 2rem;
+    width: 3rem;
+    height: 3rem;
 }
 
 #headerContent{
@@ -49,7 +50,7 @@
 /* CONTENT */
 
 #contentContainer{
-    max-width: 1120px;
+    max-width: 1320px;
     margin: 0 auto;
     padding: 0 2rem;
     height: calc(100vh - 5rem);
@@ -60,8 +61,8 @@
 }
 
 #contentContainer img{
-    width: 25rem;
-    height: 25rem;
+    width: 35rem;
+    height: 35rem;
 }
 
 #contentContainer h3 img{
@@ -86,9 +87,8 @@
     font-family: Rajdhani;
 }
 
-
 #sectionContainer h2{
-    font-size: 2rem;
+    font-size: 3rem;
     line-height: 4.5rem;
     font-weight: 900;
     margin-top: 1rem;
@@ -96,6 +96,7 @@
 
 #sectionContainer table{
     margin-top: 1rem;
+    font-size: 2rem;
 }
 
 
