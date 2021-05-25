@@ -87,7 +87,7 @@
 }
 
 
-#sectionContainer h1{
+#sectionContainer h2{
     font-size: 2rem;
     line-height: 4.5rem;
     font-weight: 900;
@@ -98,9 +98,6 @@
     margin-top: 1rem;
 }
 
-#sectionContainer span{
-    font-size: 2rem;
-}
 
 #redes{
     color: var(--purple);
