@@ -1,0 +1,49 @@
+.formContainer form input{
+    width: 50%;
+    height: 1.5rem;
+    border: 0;
+
+
+    text-align: center;
+    
+}
+
+.formContainer h1{
+    margin-bottom: 2rem;
+    font-size: 1.3rem;
+
+    font-family: rajdhani;
+}
+
+.imageContainer{
+    width: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageContainer img{
+    width: 50%;
+    height: 25rem;
+}
+
+.formContainer button{
+    font-family: roboto;
+    width: 30%;
+    height: 3rem;
+
+    background-color: lightslategray;
+    border: 0;
+    border-radius: 10px;
+
+    font-weight: bold;
+
+    transition: 0.2ms;
+
+    margin-top: 2rem;
+}
+
+.formContainer button:hover{
+    filter: brightness(0.6);
+}
