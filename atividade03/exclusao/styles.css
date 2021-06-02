@@ -1,16 +1,21 @@
 .formContainer form input{
-    width: 50%;
+    width: 90%;
     height: 1.5rem;
-    border: 0;
+    margin-right: 1rem;
 
 
     text-align: center;
     
 }
 
+.formContainer form{
+    padding: 2rem;
+    gap: 1.5rem;
+}
+
 .formContainer h1{
     margin-bottom: 2rem;
-    font-size: 1.3rem;
+    font-size: 2rem;
 
     font-family: rajdhani;
 }
@@ -30,20 +35,27 @@
 
 .formContainer button{
     font-family: roboto;
-    width: 30%;
-    height: 3rem;
 
     background-color: lightslategray;
     border: 0;
-    border-radius: 10px;
+    border-radius: 8px;
 
     font-weight: bold;
 
     transition: 0.2ms;
 
-    margin-top: 2rem;
+    width: 30%;
+    height: 1.5rem;
+
 }
 
 .formContainer button:hover{
     filter: brightness(0.6);
+    color: white;
+}
+
+.inputs{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
