@@ -3,6 +3,8 @@
     height: 1.5rem;
     margin-right: 1rem;
 
+    border-radius: 5px;
+
 
     text-align: center;
     
@@ -36,22 +38,24 @@
 .formContainer button{
     font-family: roboto;
 
-    background-color: lightslategray;
+    background-color: var(--sea-green);
     border: 0;
     border-radius: 8px;
+
+    color: white;
 
     font-weight: bold;
 
     transition: 0.2ms;
 
-    width: 30%;
+    width: 40%;
     height: 1.5rem;
 
 }
 
 .formContainer button:hover{
-    filter: brightness(0.6);
-    color: white;
+    filter: brightness(0.9);
+    color: black;
 }
 
 .inputs{

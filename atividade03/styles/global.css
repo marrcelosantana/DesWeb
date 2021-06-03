@@ -13,6 +13,10 @@
     --green-omni: #5fcc6f;
     --yellow-omni: #dad37d;
     --pink-omni:#ff79c6;
+    --sea-green: #00c0a2;
+    --night-blue: #31256d;
+    --dark-grey: #3f3d56;
+    --light-coral: #ff6584;
 }
 
 @media (max-width: 1080px){
@@ -38,6 +42,14 @@ input{
 
 button{
     cursor: pointer;
+    background-color: var(--sea-green);
+    color: white;
+    transition: filter 0.2ms;
+}
+
+button:hover{
+    filter: brightness(0.9);
+    color: black;
 }
 
 a{
@@ -64,15 +76,39 @@ a{
 .headerContent{
     width: 100%;
     height: 3.5rem;
-    background-color: black;
-    color: var(--yellow-omni);
+
+    background-color: var(--dark-grey);
+    color: var(--white-ice);
+
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 0 10px 0 10px;
+
     border-radius: 8px 8px 0 0;
+
     font-family: rajdhani;
+
+    border-bottom: 4px solid var(--sea-green);
+}
+
+.headerContent p{
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
+}
+
+.headerContent nav{
+    font-size: 17px;
+    display: flex;
+    gap: 2rem;
+
+    font-family: roboto;
+
+    transition: color 2ms;
+}
+
+.headerContent nav a:hover{
+    color: var(--sea-green);
 }
 
 .contentContainer{
