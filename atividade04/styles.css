@@ -1,0 +1,78 @@
+.container{
+    background-image: url(./images/storage_server_bg.jpg);
+    display: flex;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+}
+
+.title{
+    font-family: rajdhani;
+    color: var(--white-ice);
+    text-align: center;
+}
+
+.container-content{
+    width: 31%;
+    background-color: rgba(44, 14, 71, 0.95);
+    padding: 1%;
+    border: 1px solid var(--white-ice);
+    border-radius: 15px;
+}
+
+.inputs{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+.inputs input{
+    font-family: rajdhani;
+}
+
+.inputs label{
+    margin-top: 4%;
+    margin-bottom: 1%;
+}
+
+.choose p{
+    margin-top: 4%;
+}
+
+.choose div{
+    margin-top: 1%;
+}
+
+span{
+    font-size: 12px;
+}
+
+.text-Area{
+    margin-top: 4%;
+    font-family: rajdhani;
+}
+
+.text-Area textarea{
+    border: 0px ;
+    width:100%;
+    resize: none;
+    font-family: rajdhani;
+}
+
+.button{
+    margin-top: 4%;
+}
+
+.button button{
+    height: 2rem;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    background-color: #37af65;
+    color: white;
+    font-weight: bold;
+}
+
+

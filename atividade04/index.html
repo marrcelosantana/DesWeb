@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="globalstyles.css">
+    <link rel="stylesheet" href="./styles.css"> 
+    <title>DesWeb</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container-content">
+            <div class="title">
+                <h1>Projeto adaptado - Des Web</h1>
+                <p>Exemplo de formulário de pesquisa (Survey)</p>
+            </div>
+            <form>
+                <div class="inputs">
+
+                    <label for = "name">Nome</label>
+                   <input type="text" id = "name" placeholder=" Coloque seu nome...">
+
+                   <label for = "email">Email</label>
+                   <input type="email" id = "email" placeholder=" Coloque seu Email...">
+
+                   <label for = "idade">Idade <span>(Opcional)</span></label>
+                   <input type="number" id = "idade" placeholder=" Coloque sua idade...">
+                    
+                   <label for = "estado">Qual opção melhor descreve o seu estado atual?</label>
+                   <select name="select">
+                    <option value="valor1" selected id="principal">Selecione a ocupação</option>
+                    <option value="valor2" >Estudante</option>
+                    <option value="valor3">CLT</option>
+                    <option value="valor4">Prefiro não dizer</option>
+                    <option value="valor5" >Outro</option>
+                  </select>
+
+                <div>
+
+                <div class="choose">
+                    <p>Você recomendaria esse projeto?</p>
+                    <div>
+                        <input type="radio" id = "sure" name = "choo" value = "sure">
+                        <label for="sure">Com certeza!</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="maybe" name="choo" value="maybe">
+                        <label for="maybe">Talvez</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="choo" id="idk" value="idk">
+                        <label for="idk">Não Sei!</label>
+                    </div>
+                  
+                    <p>O que você gostaria de melhorar? <span>(Selcione quantas quiser...)</span></p>
+                    <div>
+                        <input type="checkbox" id="v1" name="v1" value="time">
+                        <label for="v1">Ter mais tempo para estudar</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="v2" name="v2" value="more">
+                        <label for="v2">Estudar mais o que gosto</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="v3" id="v3" value="project">
+                        <label for="v3">Gerência de projetos</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="v4" id="v4" value="node">
+                        <label for="v4">NodeJS</label>
+                    </div>
+                </div>
+                
+                <div class ="text-Area">
+                    <textarea rows="3" placeholder=" Insira seu comentário ou sugestão aqui..."></textarea>
+                </div>
+
+                <div class="button">
+                    <button type="submit">Enviar</button>
+                </div>
+                
+            </form>
+        <div>
+    </div>
+</body>
+</html>
