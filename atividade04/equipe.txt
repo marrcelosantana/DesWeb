@@ -2,5 +2,5 @@ Atividade 03 - Desenvolvimento Web
 
 Equipe:
 - Marcelo Santana Marques
-- Lucas Robson Peroba Mathias
+- Lucas Robson Peroba Matias
 - Francisco Vito Neto
