@@ -86,8 +86,7 @@ input {
   white-space: nowrap;
   margin-top: 1rem;
   background-color: var(--yellow-omni);
-  max-width: 60vw;
-  width: 100%;
+  width: 60vw;
   padding: 1rem;
   border-radius: 5px;
   display: flex;
@@ -102,8 +101,7 @@ input {
   white-space: nowrap;
   margin-top: 1rem;
   background-color: var(--green-omni);
-  max-width: 60vw;
-  width: 100%;
+  width: 60vw;
   padding: 1rem;
   border-radius: 5px;
   display: flex;
