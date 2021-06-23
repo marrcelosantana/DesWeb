@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="exemplo1">
+        <h2>O que eu posso fazer com JavaScript?</h2>
+        <p id = "meuP">Texto antigo!!</p>
+        <button onclick = "alterarTexto()">Click</button>
+    </div>
+
+    <div class="exemplo2">
+        <p>Vamos alterar o endereço de uma imagem de forma dimâmica:</p>
+        <button onclick = "acender()">Acender Lâmpada</button>
+    
+        <img src="./images/lampOff.jpg" alt="lampOff" id="myImage">
+    
+        <button onclick="apagar()">Apagar Lâmpada</button>
+    </div>
+
+    <div class="exemplo3" style = "margin-bottom: 2rem;">
+        <p id="demo">JavaScript pode alterar o estilo do elemento HTML.</p>
+        <button onclick = "alterarFonte()">Alterar Fonte</button>
+    </div>
+
+    <div class="calculadora">
+        <input type="text" id="n1">
+        <input type="text" id= "n2">
+        <button type="submit" id="botao" onclick = "somar()">Somar</button>
+
+        <p id="resultado"></p>
+
+        <button onclick="exibirData()">Exibir Data</button>
+    </div>
+
+    
+</body>
+
+<script src = "script.js"></script>
+</html>

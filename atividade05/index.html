@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./global.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>ToDoList</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="titles">
+            <img src="./images/todo-icon.svg" alt="todo-icon" class="todo-icon">
+            <h1 class="principal-title">ToDo <span class="span-title">App</span></h1>
+        </div>
+
+        <div class="subtitles">
+            <p class="subtitle">Adicione um texto dentro da caixa de texto para inserir novas atividades.</p>
+            <p class="subtitle">Clique no item para marcar a atividade como complementada.</p>
+            <p class="subtitle">Clique na lixeira da atividade para remover o item.</p>
+        </div>
+
+        <div class="principal-input">
+            <input type="text" class="input" id="input-add" placeholder="Nova tarefa...">
+            <button  onclick="addActivity(), clearInput(), listActivities()">Adicionar</button>
+        </div>
+
+        <div class="table-div">
+            <table class="table">
+                <tbody id="tbody">
+                   
+                </tbody>
+            </table>
+        </div>
+
+
+        <!-- <div class="activity">
+            <p id="res">Descrição da Atividade</p>
+            <img src="./images/delete.svg" alt="delete-icon" class="delete-icon" onclick="removeActivity()">
+        </div> -->
+        
+    </div>
+</body>
+
+<script src="scripts/script.js"></script>
+
+</html>
