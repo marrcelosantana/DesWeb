@@ -62,13 +62,11 @@ function completeActivity(index) {
     }
 }
 
-function pressEnter() {
-    const textbox = document.getElementById("input-add");
-    textbox.addEventListener("keypress", function onEvent(event) {
-        if (event.key === "Enter") {
-            document.getElementById("button-add").click();
-        }
-    });
-}
 
+document.addEventListener("keypress", function(e){
+    if(e.key == "Enter"){
+        const btn = document.getElementById("button-add");
+        btn.click();
+    }
+})
 
