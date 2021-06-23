@@ -1,132 +1,130 @@
-.container{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    min-height: 100vh;
-    width: 100%;
-    padding: 2rem;
-    background-color: var(--black-omni);
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  padding: 2rem;
+  background-color: var(--black-omni);
 }
 
-.titles{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.titles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.todo-icon{
-    margin-bottom: 1rem;
+.todo-icon {
+  margin-bottom: 1rem;
 }
 
-.todo-icon{
-    width: 5rem;
-    height: 5rem;
+.todo-icon {
+  width: 5rem;
+  height: 5rem;
 }
 
-.principal-title{
-    font-family: rajdhani;
-    font-size: 3rem;
-    margin-bottom: 1rem;
-    color: var(--pink-omni);
-    width: 100%;
+.principal-title {
+  font-family: rajdhani;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: var(--pink-omni);
+  width: 100%;
 }
 
-.principal-input{
-    width: 60%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 1rem;
+.principal-input {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
 }
 
-input{
-    height: 2rem;
-    border: 0;
-    padding-left: 0.5rem;
-    width: 100%;
-    margin-right: 0.5%;
+input {
+  height: 2rem;
+  border: 0;
+  padding-left: 0.5rem;
+  width: 100%;
+  margin-right: 0.5%;
 }
 
-.principal-input button{
-    width: 7rem;
-    border-radius: 3px;
-    border: 0;
-    height: 2rem;
-    background-color: var(--green-omni);
-    color: white;
-    font-weight: bold;
-    font-family: rajdhani, sans-serif;
+.principal-input button {
+  width: 7rem;
+  border-radius: 3px;
+  border: 0;
+  height: 2rem;
+  background-color: var(--green-omni);
+  color: white;
+  font-weight: bold;
+  font-family: rajdhani, sans-serif;
 
-    transition: filter 0.2ms;
+  transition: filter 0.2ms;
 }
 
-.principal-input button:hover{
-    filter: brightness(0.8);
-    color: var(--white-ice);
-
+.principal-input button:hover {
+  filter: brightness(0.8);
+  color: var(--white-ice);
 }
 
-.subtitles{
-    margin-bottom: 1.5rem;
-    color: var(--white-ice);
-    text-align: center;
+.subtitles {
+  margin-bottom: 1.5rem;
+  color: var(--white-ice);
+  text-align: center;
 }
 
-.subtitle{
-    margin-bottom: 0.5rem;
+.subtitle {
+  margin-bottom: 0.5rem;
 }
 
-.table{
-    width: 60%;
+.table {
+  width: 60%;
 }
 
-.activity{
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    margin-top: 1rem;
-    background-color: var(--yellow-omni);
-    width: 100%;
-    padding: 1rem;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    cursor: pointer;
+.activity {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-top: 1rem;
+  background-color: var(--yellow-omni);
+  max-width: 60vw;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
 }
 
-.activityCompleted{
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    margin-top: 1rem;
-    background-color: var(--green-omni);
-    width: 100%;
-    padding: 1rem;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.activityCompleted {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-top: 1rem;
+  background-color: var(--green-omni);
+  max-width: 60vw;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-
-.activity button{
-    width: 2rem;
-    background-color: transparent;
-    border: 0;
-    color: white;
+.activity button {
+  width: 2rem;
+  background-color: transparent;
+  border: 0;
+  color: white;
 }
 
-.delete-icon{
-    width: 1.3rem;
-    height: 1.3rem;
-    margin-left: 0.5rem;
-    cursor: pointer;
+.delete-icon {
+  width: 1.3rem;
+  height: 1.3rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
 }
 
-span{
-    color: var(--yellow-omni);
+span {
+  color: var(--yellow-omni);
 }
-
-
