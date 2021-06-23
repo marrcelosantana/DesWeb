@@ -111,7 +111,7 @@ input{
 }
 
 
-.activity  button{
+.activity button{
     width: 2rem;
     background-color: transparent;
     border: 0;
@@ -128,4 +128,5 @@ input{
 span{
     color: var(--yellow-omni);
 }
+
 

@@ -32,9 +32,9 @@ function listActivities() {
 
         td_description.innerText = activity.description;
 
-
         let imgDelete = document.createElement('img');
-        imgDelete.src = '../images/delete.svg';
+        imgDelete.src = 'images/delete.svg';
+        imgDelete.className = "delete-icon";
         imgDelete.setAttribute("onclick", "removeActivity(" + index + "), listActivities()");
 
         let buttonDelete = document.createElement('Button');
