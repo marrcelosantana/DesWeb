@@ -54,6 +54,7 @@ function removeActivity(index){
     }
 }
 
+
 function completeActivity(index){
     if(index >= 0){
         activities[index].status = !activities[index].status;
